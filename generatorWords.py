@@ -1,7 +1,7 @@
 import random
 
 def word_generator(length):
-    letters = "abcdefghijklmnopqrstuvwxyz"
+    letters = "abcdefghijklmnopqrstuvwxyzé&à"
     word = ""
     for i in range(length):
         word += random.choice(letters)
